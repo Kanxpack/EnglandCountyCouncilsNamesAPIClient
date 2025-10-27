@@ -1,0 +1,21 @@
+{
+    "name": "kanxpack/englandcountycouncilsnamesapiclient",
+    "description": "PHP API client for England County Councils names",
+    "type": "library",
+    "require": {
+        "kanxpack/httpapi": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kanxpack\\Englandcountycouncilsnamesapiclient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco Monteiro",
+            "email": "kanxuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

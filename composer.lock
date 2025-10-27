@@ -1,0 +1,134 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7d3318356aa9c9abdd53d38cae78c785",
+    "packages": [
+        {
+            "name": "kanxpack/curlget",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kanxpack/CurlGet.git",
+                "reference": "394d6b1819625c78518b1c06e40345e17c42a26c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kanxpack/CurlGet/zipball/394d6b1819625c78518b1c06e40345e17c42a26c",
+                "reference": "394d6b1819625c78518b1c06e40345e17c42a26c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kanxpack\\CurlGet\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Monteiro"
+                }
+            ],
+            "description": "Simple PHP cUrl Get API",
+            "support": {
+                "issues": "https://github.com/Kanxpack/CurlGet/issues",
+                "source": "https://github.com/Kanxpack/CurlGet/tree/v1.0.2"
+            },
+            "time": "2025-10-24T16:23:01+00:00"
+        },
+        {
+            "name": "kanxpack/httpapi",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kanxpack/HttpAPI.git",
+                "reference": "305fb4237a9fc20dfcf1a984edcdf23c17ac18de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kanxpack/HttpAPI/zipball/305fb4237a9fc20dfcf1a984edcdf23c17ac18de",
+                "reference": "305fb4237a9fc20dfcf1a984edcdf23c17ac18de",
+                "shasum": ""
+            },
+            "require": {
+                "kanxpack/httpclient": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kanxpack\\HttpAPI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Monteiro",
+                    "email": "kanxuk@gmail.com"
+                }
+            ],
+            "description": "You can use HTTP APIs to send requests to any routable HTTP endpoint.",
+            "support": {
+                "issues": "https://github.com/Kanxpack/HttpAPI/issues",
+                "source": "https://github.com/Kanxpack/HttpAPI/tree/v1.0.3"
+            },
+            "time": "2025-10-20T20:17:18+00:00"
+        },
+        {
+            "name": "kanxpack/httpclient",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kanxpack/HttpClient.git",
+                "reference": "3b52c80649a629d512decc59a88d8d1b848434fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kanxpack/HttpClient/zipball/3b52c80649a629d512decc59a88d8d1b848434fd",
+                "reference": "3b52c80649a629d512decc59a88d8d1b848434fd",
+                "shasum": ""
+            },
+            "require": {
+                "kanxpack/curlget": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kanxpack\\HttpClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Monteiro"
+                }
+            ],
+            "description": "Provides a class for sending HTTP requests and receiving HTTP responses from a resource identified by a URI in PHP.",
+            "support": {
+                "issues": "https://github.com/Kanxpack/HttpClient/issues",
+                "source": "https://github.com/Kanxpack/HttpClient/tree/v1.0.2"
+            },
+            "time": "2025-10-20T20:12:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
