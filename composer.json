@@ -1,6 +1,6 @@
 {
     "name": "kanxpack/englandcountycouncilsnamesapiclient",
-    "description": "PHP API client for England County Councils names",
+    "description": "PHP Rapidapi.com API client for England County Councils names",
     "type": "library",
     "require": {
         "kanxpack/rapidapiclient": "^1.0"
