@@ -3,12 +3,15 @@
     "description": "PHP API client for England County Councils names",
     "type": "library",
     "require": {
-        "kanxpack/httpapi": "^1.0"
+        "kanxpack/rapidapiclient": "^1.0"
+    },
+    "require-dev": {
+        "kanxpack/rapidapiclient": "^1.0"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Kanxpack\\Englandcountycouncilsnamesapiclient\\": "src/"
+            "Kanxpack\\EnglandCountyCouncilsNamesAPIClient\\": "src/"
         }
     },
     "authors": [
