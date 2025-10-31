@@ -17,7 +17,7 @@ class EnglandCountyCouncilsNamesAPIClient {
 
 	public static function all($key) : \Kanxpack\RapidAPIClient\RapidAPIClient
 	{
-        return RapidAPIClient::setUrl($this->rapidapiUrl)->setHost($this->rapidapiHost)->setKey($key)->get();
+        return RapidAPIClient::setUrl(self::$rapidapiUrl)->setHost(self::$rapidapiHost)->setKey($key)->get();
 	}
 
 }
