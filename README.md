@@ -9,7 +9,7 @@ require_once './vendor/autoload.php';
 
 use Kanxpack\EnglandCountyCouncilsNamesAPIClient\EnglandCountyCouncilsNamesAPIClient;
 
-$result = EnglandCountyCouncilsNamesAPIClient::get('4b33ed8ca5msh7ad0ca38aaee2cfp1b41f2jsn522a6c310273');
+$result = EnglandCountyCouncilsNamesAPIClient::all('{x-rapidapi-key}');
 
 if (!$result::getMessage()) {
  $response = $result::getResponse();
@@ -21,6 +21,7 @@ if (!$result::getMessage()) {
 }
 
 ```
+Note: Please replace {x-rapidapi-key} with your own Rapidapi.com Key.
 
 ## Installation
 
@@ -44,7 +45,7 @@ require_once './vendor/autoload.php';
 
 use Kanxpack\EnglandCountyCouncilsNamesAPIClient\EnglandCountyCouncilsNamesAPIClient;
 
-$result = EnglandCountyCouncilsNamesAPIClient::get('4b33ed8ca5msh7ad0ca38aaee2cfp1b41f2jsn522a6c310273');
+$result = EnglandCountyCouncilsNamesAPIClient::all('{x-rapidapi-key}');
 
 if (!$result::getMessage()) {
  $response = $result::getResponse();
@@ -55,6 +56,7 @@ if (!$result::getMessage()) {
 	echo $result::getMessage();
 }
 ```
+Note: Please replace {x-rapidapi-key} with your own Rapidapi.com Key.
 
 ### Without Composer
 

@@ -13,9 +13,9 @@ class EnglandCountyCouncilsNamesAPIClient {
     	return empty(self::$instance) ? (new self()) : self::$instance; 
     }
 
-	public static function get($key) : \Kanxpack\RapidAPIClient\RapidAPIClient
+	public static function all($key) : \Kanxpack\RapidAPIClient\RapidAPIClient
 	{
-        return RapidAPIClient::setUrl('https://kanxpack-england-county-councils-names-list-api.p.rapidapi.com/Kanxpack/EnglandCountyCouncilsNamesAPIData/refs/tags/v1.0.2/data/all.json')->setHost('kanxpack-england-county-councils-names-list-api.p.rapidapi.com')->setKey($key)->get();
+        return RapidAPIClient::setUrl('https://kanxpack-england-county-councils-names-list-api.p.rapidapi.com/all')->setHost('kanxpack-england-county-councils-names-list-api.p.rapidapi.com')->setKey($key)->get();
 	}
 
 }
