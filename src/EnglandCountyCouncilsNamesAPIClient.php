@@ -7,7 +7,7 @@ use Kanxpack\RapidAPIClient\RapidAPIClient;
 class EnglandCountyCouncilsNamesAPIClient {
 
 	private static $instance;
-	protected static $rapidapiUrl = 'https://kanxpack-england-county-councils-names-list-api.p.rapidapi.com/Kanxpack/EnglandCountyCouncilsNamesAPIData/refs/tags/v1.0.2/data/all.json';
+	protected static $rapidapiUrl = 'https://kanxpack-england-county-councils-names-list-api.p.rapidapi.com/open_data/uk/england/counties/county_councils/names/all.json';
 	protected static $rapidapiHost = 'kanxpack-england-county-councils-names-list-api.p.rapidapi.com';
 
     public static function getInstance() : self
